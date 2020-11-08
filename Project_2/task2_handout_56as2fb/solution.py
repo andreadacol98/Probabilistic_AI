@@ -115,7 +115,7 @@ class BayesianLayer(torch.nn.Module):
         # TODO: enter your code here // DONE
 
         self.prior_mu = 0
-        self.prior_sigma = .75
+        self.prior_sigma = .1
 
         mu_init_distribution = torch.distributions.Normal(torch.ones(output_dim, input_dim) * torch.tensor(0), torch.ones(output_dim, input_dim) * torch.tensor(.1))
         self.weight_mu = nn.Parameter(mu_init_distribution.sample()*torch.ones(output_dim, input_dim, requires_grad=True))
@@ -214,7 +214,7 @@ class BayesNet(torch.nn.Module):
             probs += t
         probs = F.softmax(probs, dim=1)
         # 1 estraggo num_forward_passes modelli
-        # li averagio
+        # li averagioqui
         # TODO: make n random forward passes // DONE
         # compute the categorical softmax probabilities
         # marginalize the probabilities over the n forward passes
@@ -249,6 +249,7 @@ def train_network(model, optimizer, train_loader, num_epochs=100, pbar_update_in
 
     pbar = trange(num_epochs)
     for i in pbar:
+        print(len(train_loader))
         for k, (batch_x, batch_y) in enumerate(train_loader):
             model.zero_grad()
             y_pred = model(batch_x)
@@ -257,7 +258,7 @@ def train_network(model, optimizer, train_loader, num_epochs=100, pbar_update_in
                 kl = model.kl_loss()
                 print("\nCross Entropy: {0}".format(float(loss)))
                 print("KL: {0}".format(float(kl)))
-                loss += kl
+                loss += kl/len(train_loader)
                 print("Loss: {0}".format(loss))
                 # BayesNet implies additional KL-loss.
                 # TODO: enter your code here // DONE
@@ -363,7 +364,7 @@ def evaluate_model(model, model_type, test_loader, batch_size, extended_eval, pr
 
 def main(test_loader=None, private_test=False):
     num_epochs = 100 # You might want to adjust this
-    batch_size = 1024 # Try playing around with this
+    batch_size = 200 # Try playing around with this
     print_interval = 100
     learning_rate = 5e-4  # Try playing around with this
     model_type = "bayesnet"  # Try changing this to "densenet" as a comparison

@@ -14,3 +14,9 @@ $\Sigma_{A|B}=\Sigma_{AA}-\Sigma_{AB}\Sigma^{-1}_{BB}\Sigma_{BA}$
 $\text{g(x) is convex} \Leftrightarrow x_1,x_2 \in \mathbb{R}, \lambda \in [0,1]: g''(x) > 0$\\
 $g(\lambda x_1 + (1-\lambda) x_2) \leq \lambda g(x_1) + (1-\lambda) g(x_2)$
 $\varphi(\operatorname{E}[X]) \leq  \operatorname{E}[\varphi(X)]$
+\subsection{Kullback-Leiber divergence}
+$KL(p\vert\vert q)=\mathbb{E}_p\left[\log\frac{p(x)}{q(x)}\right]$\\
+if $p_0\sim \mathcal{N}(\mu_0,\Sigma_0),\; p_1\sim \mathcal{N}(\mu_1,\Sigma_1) \Rightarrow KL(p_0\vert\vert p_1)$\\
+{\scriptsize$ = \frac{1}{2}\left(tr\left(\Sigma_1^{-1}\Sigma_0\right) + (\mu_1-\mu_0)^T\Sigma_1^{-1}(\mu_1-\mu_0)-k+\log\frac{\vert\Sigma_1\vert}{\vert\Sigma_0\vert}\right)$}\\
+$\hat q = \argmin_q KL(p\vert\vert q) \Rightarrow$ overconservative\\
+$\hat q = \argmin_q KL(q\vert\vert p) \Rightarrow$ overconfident

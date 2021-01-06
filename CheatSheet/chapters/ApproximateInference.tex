@@ -1,7 +1,17 @@
 
-\section{Approximate inference (loopy networks)}
-With loopy graphs, BP is often \textbf{overconfident/oscillates}.
+\section{Approximate inference}
+\subsection{Laplace Approximation}
+$\hat\theta=\argmax_\theta p(\theta\vert y)$\\
+$\Lambda = -\nabla_\theta \nabla_\theta \log{p(\theta\vert y)}\vert_{\theta = \hat\theta}$\\
+$p(\theta\vert y)\simeq q(\theta)=N(\hat\theta,\Lambda^{-1})$
+\subsection{Variationa Inverence}
+$\hat q = \argmin_{q \in Q} KL(q\vert\vert p(\cdot\vert y))$\\
+$\hat q = \argmax_{q \in Q} \mathbb{E}_{\theta \sim q}\left[\log{p(y\vert\theta)}\right]-KL(q\vert\vert p(\cdot))$\\
+$ELBO \doteq \mathbb{E}_{\theta \sim q}\left[\log{p(y\vert\theta)}\right]-KL(q\vert\vert p(\cdot)) \leq \log{p(y)}$
+
+
 \subsection{Variable elimination for MPE (most probable explanation):}
+With loopy graphs, BP is often \textbf{overconfident/oscillates}.
 
 - Given BN and evidence E=e\\
 - Choose an ordering of $X_1, ... x_n$\\

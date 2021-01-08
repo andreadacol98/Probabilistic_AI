@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.25)  6 JAN 2021 18:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.25)  8 JAN 2021 12:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -653,6 +653,56 @@ LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `boldsf'
 (Font)                  U/jkpexa/m/n --> U/jkpexa/bx/n on input line 620.
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 940.
 LaTeX Info: Redefining \not on input line 1580.
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count282
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\algocf@hangindent=\skip52
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count283
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip53
+\skiplinenumber=\skip54
+\skiprule=\skip55
+\skiphlne=\skip56
+\skiptext=\skip57
+\skiplength=\skip58
+\algomargin=\skip59
+\skipalgocfslide=\skip60
+\algowidth=\dimen199
+\inoutsize=\dimen256
+\inoutindent=\dimen257
+\interspacetitleruled=\dimen258
+\interspacealgoruled=\dimen259
+\interspacetitleboxruled=\dimen260
+\algocf@ruledwidth=\skip61
+\algocf@inoutbox=\box78
+\algocf@inputbox=\box79
+\AlCapSkip=\skip62
+\AlCapHSkip=\skip63
+\algoskipindent=\skip64
+\algocf@nlbox=\box80
+\algocf@hangingbox=\box81
+\algocf@untilbox=\box82
+\algocf@skipuntil=\skip65
+\algocf@capbox=\box83
+\algocf@lcaptionbox=\skip66
+\algoheightruledefault=\skip67
+\algoheightrule=\skip68
+\algotitleheightruledefault=\skip69
+\algotitleheightrule=\skip70
+\c@algocfline=\count284
+\c@algocfproc=\count285
+\c@algocf=\count286
+\algocf@algoframe=\box84
+\algocf@algobox=\box85
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/sourcesanspro/sourcesanspro.sty
 Package: sourcesanspro 2016/12/03 v2.6 Adobe's Source Sans Pro typeface
  (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifxetex.sty
@@ -667,7 +717,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks35
 \XKV@tempa@toks=\toks36
 )
-\XKV@depth=\count282
+\XKV@depth=\count287
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
@@ -808,35 +858,27 @@ LaTeX Font Info:    Trying to load font information for T1+jkp on input line 112
 File: t1jkp.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkp.
 ))) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count283
-\mult@box=\box78
-\multicol@leftmargin=\dimen199
-\c@unbalance=\count284
-\c@collectmore=\count285
-\doublecol@number=\count286
-\multicoltolerance=\count287
-\multicolpretolerance=\count288
-\full@width=\dimen256
-\page@free=\dimen257
-\premulticols=\dimen258
-\postmulticols=\dimen259
-\multicolsep=\skip52
-\multicolbaselineskip=\skip53
-\partial@page=\box79
-\last@line=\box80
-\maxbalancingoverflow=\dimen260
-\mult@rightbox=\box81
-\mult@grightbox=\box82
-\mult@gfirstbox=\box83
-\mult@firstbox=\box84
-\@tempa=\box85
-\@tempa=\box86
-\@tempa=\box87
-\@tempa=\box88
-\@tempa=\box89
-\@tempa=\box90
-\@tempa=\box91
-\@tempa=\box92
+\c@tracingmulticols=\count288
+\mult@box=\box86
+\multicol@leftmargin=\dimen261
+\c@unbalance=\count289
+\c@collectmore=\count290
+\doublecol@number=\count291
+\multicoltolerance=\count292
+\multicolpretolerance=\count293
+\full@width=\dimen262
+\page@free=\dimen263
+\premulticols=\dimen264
+\postmulticols=\dimen265
+\multicolsep=\skip71
+\multicolbaselineskip=\skip72
+\partial@page=\box87
+\last@line=\box88
+\maxbalancingoverflow=\dimen266
+\mult@rightbox=\box89
+\mult@grightbox=\box90
+\mult@gfirstbox=\box91
+\mult@firstbox=\box92
 \@tempa=\box93
 \@tempa=\box94
 \@tempa=\box95
@@ -866,20 +908,28 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box119
 \@tempa=\box120
 \@tempa=\box121
-\c@minrows=\count289
-\c@columnbadness=\count290
-\c@finalcolumnbadness=\count291
-\last@try=\dimen261
-\multicolovershoot=\dimen262
-\multicolundershoot=\dimen263
-\mult@nat@firstbox=\box122
-\colbreak@box=\box123
-\mc@col@check@num=\count292
+\@tempa=\box122
+\@tempa=\box123
+\@tempa=\box124
+\@tempa=\box125
+\@tempa=\box126
+\@tempa=\box127
+\@tempa=\box128
+\@tempa=\box129
+\c@minrows=\count294
+\c@columnbadness=\count295
+\c@finalcolumnbadness=\count296
+\last@try=\dimen267
+\multicolovershoot=\dimen268
+\multicolundershoot=\dimen269
+\mult@nat@firstbox=\box130
+\colbreak@box=\box131
+\mc@col@check@num=\count297
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen264
-\WF@size=\dimen265
-\c@WF@wrappedlines=\count293
-\WF@box=\box124
+\wrapoverhang=\dimen270
+\WF@size=\dimen271
+\c@WF@wrappedlines=\count298
+\WF@box=\box132
 \WF@everypar=\toks37
 Package: wrapfig 2003/01/31  v 3.6
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
@@ -887,17 +937,17 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
  (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count294
-\Gm@cntv=\count295
-\c@Gm@tempcnt=\count296
-\Gm@bindingoffset=\dimen266
-\Gm@wd@mp=\dimen267
-\Gm@odd@mp=\dimen268
-\Gm@even@mp=\dimen269
-\Gm@layoutwidth=\dimen270
-\Gm@layoutheight=\dimen271
-\Gm@layouthoffset=\dimen272
-\Gm@layoutvoffset=\dimen273
+\Gm@cnth=\count299
+\Gm@cntv=\count300
+\c@Gm@tempcnt=\count301
+\Gm@bindingoffset=\dimen272
+\Gm@wd@mp=\dimen273
+\Gm@odd@mp=\dimen274
+\Gm@even@mp=\dimen275
+\Gm@layoutwidth=\dimen276
+\Gm@layoutheight=\dimen277
+\Gm@layouthoffset=\dimen278
+\Gm@layoutvoffset=\dimen279
 \Gm@dimlist=\toks38
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/mdframed/mdframed.sty
 Package: mdframed 2013/07/01 1.9b: mdframed
@@ -911,17 +961,17 @@ Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 Package: expl3 2020-03-06 L3 programming layer (loader) 
  (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count297
-\l__pdf_internal_box=\box125
+\l__kernel_color_stack_int=\count302
+\l__pdf_internal_box=\box133
 ))
 Package: xparse 2020-03-06 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count298
-\g__xparse_grabber_int=\count299
-\l__xparse_m_args_int=\count300
-\l__xparse_v_nesting_int=\count301
+\l__xparse_current_arg_int=\count303
+\g__xparse_grabber_int=\count304
+\l__xparse_m_args_int=\count305
+\l__xparse_v_nesting_int=\count306
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count302
+\etb@tempcnta=\count307
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/zref/zref-abspage.sty
 Package: zref-abspage 2020-03-03 v2.29 Module abspage for zref (HO)
  (/usr/local/texlive/2020/texmf-dist/tex/latex/zref/zref-base.sty
@@ -946,111 +996,111 @@ Package zref Info: New property: page on input line 765.
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\c@abspage=\count303
+\c@abspage=\count308
 Package zref Info: New property: abspage on input line 66.
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/needspace/needspace.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
-\mdf@templength=\skip54
-\c@mdf@globalstyle@cnt=\count304
-\mdf@skipabove@length=\skip55
-\mdf@skipbelow@length=\skip56
-\mdf@leftmargin@length=\skip57
-\mdf@rightmargin@length=\skip58
-\mdf@innerleftmargin@length=\skip59
-\mdf@innerrightmargin@length=\skip60
-\mdf@innertopmargin@length=\skip61
-\mdf@innerbottommargin@length=\skip62
-\mdf@splittopskip@length=\skip63
-\mdf@splitbottomskip@length=\skip64
-\mdf@outermargin@length=\skip65
-\mdf@innermargin@length=\skip66
-\mdf@linewidth@length=\skip67
-\mdf@innerlinewidth@length=\skip68
-\mdf@middlelinewidth@length=\skip69
-\mdf@outerlinewidth@length=\skip70
-\mdf@roundcorner@length=\skip71
-\mdf@footenotedistance@length=\skip72
-\mdf@userdefinedwidth@length=\skip73
-\mdf@needspace@length=\skip74
-\mdf@frametitleaboveskip@length=\skip75
-\mdf@frametitlebelowskip@length=\skip76
-\mdf@frametitlerulewidth@length=\skip77
-\mdf@frametitleleftmargin@length=\skip78
-\mdf@frametitlerightmargin@length=\skip79
-\mdf@shadowsize@length=\skip80
-\mdf@extratopheight@length=\skip81
-\mdf@subtitleabovelinewidth@length=\skip82
-\mdf@subtitlebelowlinewidth@length=\skip83
-\mdf@subtitleaboveskip@length=\skip84
-\mdf@subtitlebelowskip@length=\skip85
-\mdf@subtitleinneraboveskip@length=\skip86
-\mdf@subtitleinnerbelowskip@length=\skip87
-\mdf@subsubtitleabovelinewidth@length=\skip88
-\mdf@subsubtitlebelowlinewidth@length=\skip89
-\mdf@subsubtitleaboveskip@length=\skip90
-\mdf@subsubtitlebelowskip@length=\skip91
-\mdf@subsubtitleinneraboveskip@length=\skip92
-\mdf@subsubtitleinnerbelowskip@length=\skip93
+\mdf@templength=\skip73
+\c@mdf@globalstyle@cnt=\count309
+\mdf@skipabove@length=\skip74
+\mdf@skipbelow@length=\skip75
+\mdf@leftmargin@length=\skip76
+\mdf@rightmargin@length=\skip77
+\mdf@innerleftmargin@length=\skip78
+\mdf@innerrightmargin@length=\skip79
+\mdf@innertopmargin@length=\skip80
+\mdf@innerbottommargin@length=\skip81
+\mdf@splittopskip@length=\skip82
+\mdf@splitbottomskip@length=\skip83
+\mdf@outermargin@length=\skip84
+\mdf@innermargin@length=\skip85
+\mdf@linewidth@length=\skip86
+\mdf@innerlinewidth@length=\skip87
+\mdf@middlelinewidth@length=\skip88
+\mdf@outerlinewidth@length=\skip89
+\mdf@roundcorner@length=\skip90
+\mdf@footenotedistance@length=\skip91
+\mdf@userdefinedwidth@length=\skip92
+\mdf@needspace@length=\skip93
+\mdf@frametitleaboveskip@length=\skip94
+\mdf@frametitlebelowskip@length=\skip95
+\mdf@frametitlerulewidth@length=\skip96
+\mdf@frametitleleftmargin@length=\skip97
+\mdf@frametitlerightmargin@length=\skip98
+\mdf@shadowsize@length=\skip99
+\mdf@extratopheight@length=\skip100
+\mdf@subtitleabovelinewidth@length=\skip101
+\mdf@subtitlebelowlinewidth@length=\skip102
+\mdf@subtitleaboveskip@length=\skip103
+\mdf@subtitlebelowskip@length=\skip104
+\mdf@subtitleinneraboveskip@length=\skip105
+\mdf@subtitleinnerbelowskip@length=\skip106
+\mdf@subsubtitleabovelinewidth@length=\skip107
+\mdf@subsubtitlebelowlinewidth@length=\skip108
+\mdf@subsubtitleaboveskip@length=\skip109
+\mdf@subsubtitlebelowskip@length=\skip110
+\mdf@subsubtitleinneraboveskip@length=\skip111
+\mdf@subsubtitleinnerbelowskip@length=\skip112
  (/usr/local/texlive/2020/texmf-dist/tex/latex/mdframed/md-frame-1.mdf
 File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 )
-\mdf@frametitlebox=\box126
-\mdf@footnotebox=\box127
-\mdf@splitbox@one=\box128
-\mdf@splitbox@two=\box129
-\mdf@splitbox@save=\box130
-\mdfsplitboxwidth=\skip94
-\mdfsplitboxtotalwidth=\skip95
-\mdfsplitboxheight=\skip96
-\mdfsplitboxdepth=\skip97
-\mdfsplitboxtotalheight=\skip98
-\mdfframetitleboxwidth=\skip99
-\mdfframetitleboxtotalwidth=\skip100
-\mdfframetitleboxheight=\skip101
-\mdfframetitleboxdepth=\skip102
-\mdfframetitleboxtotalheight=\skip103
-\mdffootnoteboxwidth=\skip104
-\mdffootnoteboxtotalwidth=\skip105
-\mdffootnoteboxheight=\skip106
-\mdffootnoteboxdepth=\skip107
-\mdffootnoteboxtotalheight=\skip108
-\mdftotallinewidth=\skip109
-\mdfboundingboxwidth=\skip110
-\mdfboundingboxtotalwidth=\skip111
-\mdfboundingboxheight=\skip112
-\mdfboundingboxdepth=\skip113
-\mdfboundingboxtotalheight=\skip114
-\mdf@freevspace@length=\skip115
-\mdf@horizontalwidthofbox@length=\skip116
-\mdf@verticalmarginwhole@length=\skip117
-\mdf@horizontalspaceofbox=\skip118
-\mdfsubtitleheight=\skip119
-\mdfsubsubtitleheight=\skip120
-\c@mdfcountframes=\count305
+\mdf@frametitlebox=\box134
+\mdf@footnotebox=\box135
+\mdf@splitbox@one=\box136
+\mdf@splitbox@two=\box137
+\mdf@splitbox@save=\box138
+\mdfsplitboxwidth=\skip113
+\mdfsplitboxtotalwidth=\skip114
+\mdfsplitboxheight=\skip115
+\mdfsplitboxdepth=\skip116
+\mdfsplitboxtotalheight=\skip117
+\mdfframetitleboxwidth=\skip118
+\mdfframetitleboxtotalwidth=\skip119
+\mdfframetitleboxheight=\skip120
+\mdfframetitleboxdepth=\skip121
+\mdfframetitleboxtotalheight=\skip122
+\mdffootnoteboxwidth=\skip123
+\mdffootnoteboxtotalwidth=\skip124
+\mdffootnoteboxheight=\skip125
+\mdffootnoteboxdepth=\skip126
+\mdffootnoteboxtotalheight=\skip127
+\mdftotallinewidth=\skip128
+\mdfboundingboxwidth=\skip129
+\mdfboundingboxtotalwidth=\skip130
+\mdfboundingboxheight=\skip131
+\mdfboundingboxdepth=\skip132
+\mdfboundingboxtotalheight=\skip133
+\mdf@freevspace@length=\skip134
+\mdf@horizontalwidthofbox@length=\skip135
+\mdf@verticalmarginwhole@length=\skip136
+\mdf@horizontalspaceofbox=\skip137
+\mdfsubtitleheight=\skip138
+\mdfsubsubtitleheight=\skip139
+\c@mdfcountframes=\count310
 
 ****** mdframed patching \endmdf@trivlist
 
 ****** -- success******
 
-\mdf@envdepth=\count306
-\c@mdf@env@i=\count307
-\c@mdf@env@ii=\count308
-\c@mdf@zref@counter=\count309
+\mdf@envdepth=\count311
+\c@mdf@env@i=\count312
+\c@mdf@env@ii=\count313
+\c@mdf@zref@counter=\count314
 Package zref Info: New property: mdf@pagevalue on input line 895.
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
 \MT@toks=\toks39
-\MT@count=\count310
+\MT@count=\count315
 LaTeX Info: Redefining \textls on input line 790.
-\MT@outer@kern=\dimen274
+\MT@outer@kern=\dimen280
 LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
-\MT@listname@count=\count311
+\MT@listname@count=\count316
  (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2019/11/18 v2.7d Definitions specific to pdftex (RS)
 LaTeX Info: Redefining \lsstyle on input line 914.
 LaTeX Info: Redefining \lslig on input line 914.
-\MT@outer@space=\skip121
+\MT@outer@space=\skip140
 )
 Package microtype Info: Loading configuration file microtype.cfg.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/microtype.cfg
@@ -1062,64 +1112,64 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@cmds=\toks42
 \SOUL@buffer=\toks43
 \SOUL@token=\toks44
-\SOUL@spaceskip=\skip122
-\SOUL@ttwidth=\dimen275
-\SOUL@uldp=\dimen276
-\SOUL@ulht=\dimen277
+\SOUL@spaceskip=\skip141
+\SOUL@ttwidth=\dimen281
+\SOUL@uldp=\dimen282
+\SOUL@ulht=\dimen283
 )
-\pgf@layerbox@background=\box131
-\pgf@layerboxsaved@background=\box132
+\pgf@layerbox@background=\box139
+\pgf@layerboxsaved@background=\box140
  (/Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 70.
-LaTeX Font Info:    Trying to load font information for OML+jkp on input line 70.
+LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 72.
+LaTeX Font Info:    Trying to load font information for OML+jkp on input line 72.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/kpfonts/omljkp.fd
 File: omljkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 70.
-LaTeX Font Info:    Trying to load font information for OMS+jkp on input line 70.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 72.
+LaTeX Font Info:    Trying to load font information for OMS+jkp on input line 72.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/kpfonts/omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 70.
-LaTeX Font Info:    Trying to load font information for OMX+jkp on input line 70.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 72.
+LaTeX Font Info:    Trying to load font information for OMX+jkp on input line 72.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/kpfonts/omxjkp.fd
 File: omxjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 70.
-LaTeX Font Info:    Trying to load font information for U+jkpexa on input line 70.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 72.
+LaTeX Font Info:    Trying to load font information for U+jkpexa on input line 72.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/kpfonts/ujkpexa.fd
 File: ujkpexa.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 70.
-LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 70.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 72.
+LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 72.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/ly1/ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    ... okay on input line 72.
  (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count312
-\scratchdimen=\dimen278
-\scratchbox=\box133
-\nofMPsegments=\count313
-\nofMParguments=\count314
+\scratchcounter=\count317
+\scratchdimen=\dimen284
+\scratchbox=\box141
+\nofMPsegments=\count318
+\nofMParguments=\count319
 \everyMPshowfont=\toks45
-\MPscratchCnt=\count315
-\MPscratchDim=\dimen279
-\MPnumerator=\count316
-\makeMPintoPDFobject=\count317
+\MPscratchCnt=\count320
+\MPscratchDim=\dimen285
+\MPnumerator=\count321
+\makeMPintoPDFobject=\count322
 \everyMPtoPDFconversion=\toks46
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1161,15 +1211,15 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box134
-LaTeX Info: Redefining \microtypecontext on input line 70.
+\AtBeginShipoutBox=\box142
+LaTeX Info: Redefining \microtypecontext on input line 72.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 70.
+LaTeX Info: Redefining \showhyphens on input line 72.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1228,35 +1278,83 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--23
 
  []
 
-) (/Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/Review.tex) (/Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/Introduction.tex
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--38
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--42
+
+ []
+
+) (/Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/Review.tex) (/Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/ApproximateInference.tex
+Underfull \hbox (badness 10000) in paragraph at lines 20--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--30
+
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 37.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/kpfonts/t1jkptt.fd
+File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `jkptt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+) (/Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/BayesianNeuralNets.tex
+Overfull \hbox (0.39134pt too wide) in paragraph at lines 2--5
+[]\T1/jkp/m/n/10 (-20) Likelihood: $[]\OML/jkp/m/it/10 p\OT1/jkp/m/n/10 (-20) (\OML/jkp/m/it/10 y\OMS/jkp/m/n/10 j\OML/jkp/m/it/10 x\OT1/jkp/m/n/10 (-20) ; \OML/jkp/m/it/10 ^^R\OT1/jkp/m/n/10 (-20) ) = \OMS/jkp/m/n/10 N\OT1/jkp/m/n/10 (-20) (\OML/jkp/m/it/10 f[]\OT1/jkp/m/n/10 (-20) (\OML/jkp/m/it/10 x; ^^R\OT1/jkp/m/n/10 (-20) )\OML/jkp/m/it/10 ; [] []\OT1/jkp/m/n/10 (-20) )$[] 
+ []
+
+
+Overfull \hbox (0.55353pt too wide) in paragraph at lines 6--15
+\OMS/jkp/m/n/10 '[] [] [][] \OML/jkp/m/it/10 ^^[[]\OT1/jkp/m/n/10 (-20) (\OML/jkp/m/it/10 x[]; ^^R[]\OT1/jkp/m/n/10 (-20) )[] +[] [] [][] [][]$[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--15
+
+ []
+
+) (/Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/Introduction.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--8
 \T1/jkp/b/n/10 Bayes' ru-le\T1/jkp/m/n/10 (+20) : $[]\OML/jkp/m/it/10 P\OT1/jkp/m/n/10 (+20) (\OML/jkp/m/it/10 B\OMS/jkp/m/n/10 j\OML/jkp/m/it/10 A\OT1/jkp/m/n/10 (+20) ) = \OML/jkp/m/it/10 P\OT1/jkp/m/n/10 (+20) (\OML/jkp/m/it/10 A; B\OT1/jkp/m/n/10 (+20) )\OML/jkp/m/it/10 =P\OT1/jkp/m/n/10 (+20) (\OML/jkp/m/it/10 A\OT1/jkp/m/n/10 (+20) ) =
  []
 
-) (/Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/BayesianNetworks.tex) (/Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/ExactInference.tex
-<images/factor_graph.png, id=4, 675.52374pt x 224.84pt>
+) (/Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/BayesianNetworks.tex [1
+
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (/Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/ExactInference.tex
+<images/factor_graph.png, id=22, 675.52374pt x 224.84pt>
 File: images/factor_graph.png Graphic file (type png)
 <use images/factor_graph.png>
 Package pdftex.def Info: images/factor_graph.png  used on input line 21.
 (pdftex.def)             Requested size: 168.88052pt x 56.20985pt.
 
-Underfull \hbox (badness 6978) in paragraph at lines 22--22
+Underfull \hbox (badness 7308) in paragraph at lines 22--22
 []\T1/SourceSansPro-LF/b/n/10 Sum-product/Belief Pro-pa-ga-ti-on (BP)
  []
 
-) (/Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/ApproximateInference.tex
+) (/Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/TemporalModels.tex
 Underfull \hbox (badness 10000) in paragraph at lines 42--1
 
  []
 
-[1
 
-{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/images/factor_graph.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 60--67
-
- []
-
-) (/Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/TemporalModels.tex
 Underfull \hbox (badness 10000) in paragraph at lines 18--43
 \T1/jkp/m/n/10 (+20) Example for one step: $[]\OML/jkp/m/it/10 P\OT1/jkp/m/n/10 (+20) (\OML/jkp/m/it/10 X[]\OMS/jkp/m/n/10 j\OML/jkp/m/it/10 Y[]\OT1/jkp/m/n/10 (+20) ) =
  []
@@ -1276,7 +1374,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--28
 
  []
 
-[2]) (/Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/RL.tex
+[2 </Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/images/factor_graph.png>]) (/Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/RL.tex
 Underfull \hbox (badness 10000) in paragraph at lines 23--34
 \T1/jkp/b/n/10 Theorem\T1/jkp/m/n/10 (+20) : If lear-ning ra-te $[]\OML/jkp/m/it/10 []$[] \T1/jkp/m/n/10 (+20) sa-tis-fies:
  []
@@ -1288,18 +1386,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--34
 
 ) [3] (/Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/main.aux) ) 
 Here is how much of TeX's memory you used:
- 22953 strings out of 480608
- 462332 string characters out of 5903630
- 791948 words of memory out of 5000000
- 38127 multiletter control sequences out of 15000+600000
- 629136 words of font info for 232 fonts, out of 8000000 for 9000
+ 23985 strings out of 480608
+ 479193 string characters out of 5903630
+ 817533 words of memory out of 5000000
+ 39136 multiletter control sequences out of 15000+600000
+ 629615 words of font info for 232 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,14n,67p,895b,292s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/sourcesanspro/a_ggs4wk.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-Bold.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpbne.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpex.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpmi.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpmia.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpmit8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpsya.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpsyb.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpsyc.pfb>
-Output written on /Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/main.pdf (3 pages, 259876 bytes).
+ 60i,14n,67p,895b,501s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/sourcesanspro/a_ggs4wk.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-Bold.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpbne.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpex.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpmi.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpmia.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpmit8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpsya.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpsyb.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpsyc.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
+Output written on /Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/main.pdf (3 pages, 266708 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
+ 79 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 23058 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 23570 words of extra memory for PDF output out of 24883 (max. 10000000)
 

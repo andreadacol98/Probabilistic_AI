@@ -1,18 +1,79 @@
 
 \section{Approximate inference}
+
+
 \subsection{Laplace Approximation}
 $\hat\theta=\argmax_\theta p(\theta\vert y)$\\
 $\Lambda = -\nabla_\theta \nabla_\theta \log{p(\theta\vert y)}\vert_{\theta = \hat\theta}$\\
 $p(\theta\vert y)\simeq q(\theta)=N(\hat\theta,\Lambda^{-1})$
+
+
 \subsection{Variationa Inverence}
 $\hat q = \argmin_{q \in Q} KL(q\vert\vert p(\cdot\vert y))$\\
-$\hat q = \argmax_{q \in Q} \mathbb{E}_{\theta \sim q}\left[\log{p(y\vert\theta)}\right]-KL(q\vert\vert p(\cdot))$\\
+$\hat q = ELBO$ Evidence Lower Bound\\
 $ELBO \doteq \mathbb{E}_{\theta \sim q}\left[\log{p(y\vert\theta)}\right]-KL(q\vert\vert p(\cdot)) \leq \log{p(y)}$
+
+
+\subsection{Markov Chain Monte Carlo}
+\textbf{Idea}: All we need is sampling from postirior
+
+\textbf{Ergodic Markov Chain}: \\
+$\exists t \text{ s.t. } \mathbb{P}(i \to j \text{ in t steps})>0\;\; \forall i,j \Rightarrow\\
+ \exists! \pi = \lim_{N\to \infty} \mathbb{P}(X_n=x)$ Limit distribution\\
+
+ \textbf{Ergodic Theorem}: if $(X_i)_{i\in\mathbb{N}}$ is ergodic:\\
+$\ \lim_{N\to \infty}\frac{1}{n}\sum_{i=1}^{N}f(X_i)=\mathbb{E}_{x\sim\pi}\left[f(x)\right]$\\
+
+\textbf{Detailed Blanced Equation}:\\
+$P(x\vert x')$ is the transition model of a MC:\\
+if $R(x)P(x'\vert x) = R(x')P(x\vert x')$ then $R$ is the limit distribution of the MC \\
+
+\textbf{Metropolis Hastings Algo}: Sample from a MC which has $P(x) = \frac{Q(x)}{Z}$ as limit dist.\\
+\begin{algorithm}[H]
+    \SetKwFor{kwWith}{with}{do}{}
+    \SetKwInput{kwInit}{init}
+    \KwResult{$\left\{X_i\right\}_{i\in\mathbb{N}}$ sampled from the MC}
+    \kwInit{ $R(x\vert x')$ }
+    \tcc{Good $R$ choice $\to$ fast convergence} 
+    \kwInit{ $X_0 = x_0$ }
+    \For{$t \gets 1, 2, \dots$}{
+        $x' \sim R(\cdot, x_{t-1})$\\
+        $\alpha = \min\left\{1;\frac{Q(x')R(x_{t-1}\vert x')}{Q(x_{t-1})R(x'\vert x_{t-1})}\right\}$\\
+        \kwWith{probability  $\alpha$}
+        {
+            $X_{t} = x'$\;
+        }
+        otherwise $X_{t} = x_{t-1}$\;
+     }
+ \end{algorithm}
+\textbf{Metropolis Adj. Langevin Algo (MALA)}:\\
+Energy function: $P(x)=\frac{Q(x)}{Z}=\frac{1}{Z}\exp{(-f(x))}$\\
+We chose: $R(x\vert x') = \mathcal{N}(x' - \tau \nabla f(x), 2\tau I)$\\
+\textbf{Stoch. Grad. Langevin Dynamics (SGLD)}:\\
+We use SGD to Approximate $\nabla f$. Converges also without acceptance step \\
+\textbf{Hamilton MC}: SGD performance improoved by adding momentum (consider last step $\nabla f$)
+\textbf{Gibbs sampling}: Practical when $X\in\mathbb{R}^n$\\
+Used when $P(X_{1:n})$ is hard but $P(X_i\vert X_{-i})$ is easy.
+\begin{algorithm}[H]
+    \SetKwInput{kwInit}{init}
+    \SetKwFor{kwWith}{with}{do}{}
+    \kwInit{$x_0 \in \mathbb{R}^n;\; (x_0^{(B)} = x^{(B)})$ B is our data}
+    \For {$t = 1,2,\dots$}
+    {
+        $x_t = x_{t-1}$\\
+
+        \kwWith{ $i \sim \mathcal{U}(\left\{1:n\right\}\setminus B)*$}{
+        $x_{t-1}^{(i)}\sim P(x^{(i)}\vert x^{(-i)})$
+        }
+    }
+\end{algorithm}
+$*$ if we do it $\forall i \notin B$ no DBE but more practical
 
 
 \subsection{Variable elimination for MPE (most probable explanation):}
 With loopy graphs, BP is often \textbf{overconfident/oscillates}.
 
+\iffalse
 - Given BN and evidence E=e\\
 - Choose an ordering of $X_1, ... x_n$\\
 - Set up initial factors $f_i=P(X_i|Pa_i)$\\
@@ -72,7 +133,7 @@ $\quad$ - With probability $1-\alpha$, set $X_{t+1}=x$\\
 $\quad$ - Pick a variable $i$ uniformly at random from $\{1,...,n\}\setminus B$ \hl{/ Set ordering}, and then, for each $X_i$ (except those in $B$)\\
 $\quad$ - Set $v_i=$ values of all $x$ except $x_i$\\
 $\quad$ - Sample $x_i$ from $P(X_i|v_i)$
-
+\fi
 
 
 

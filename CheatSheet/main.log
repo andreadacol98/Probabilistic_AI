@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.25)  8 JAN 2021 12:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.25)  9 JAN 2021 14:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1331,24 +1331,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--15
 
  []
 
-) (/Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/Introduction.tex
+) (/Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/ActiveLearning.tex
+Overfull \hbox (12.84248pt too wide) in paragraph at lines 18--18
+[]$[][]$[]  
+ []
+
+) (/Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/BayesianOptimization.tex [1
+
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (/Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/Introduction.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--8
 \T1/jkp/b/n/10 Bayes' ru-le\T1/jkp/m/n/10 (+20) : $[]\OML/jkp/m/it/10 P\OT1/jkp/m/n/10 (+20) (\OML/jkp/m/it/10 B\OMS/jkp/m/n/10 j\OML/jkp/m/it/10 A\OT1/jkp/m/n/10 (+20) ) = \OML/jkp/m/it/10 P\OT1/jkp/m/n/10 (+20) (\OML/jkp/m/it/10 A; B\OT1/jkp/m/n/10 (+20) )\OML/jkp/m/it/10 =P\OT1/jkp/m/n/10 (+20) (\OML/jkp/m/it/10 A\OT1/jkp/m/n/10 (+20) ) =
  []
 
-) (/Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/BayesianNetworks.tex [1
-
-{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (/Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/ExactInference.tex
-<images/factor_graph.png, id=22, 675.52374pt x 224.84pt>
+) (/Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/BayesianNetworks.tex) (/Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/ExactInference.tex
+<images/factor_graph.png, id=21, 675.52374pt x 224.84pt>
 File: images/factor_graph.png Graphic file (type png)
 <use images/factor_graph.png>
 Package pdftex.def Info: images/factor_graph.png  used on input line 21.
 (pdftex.def)             Requested size: 168.88052pt x 56.20985pt.
-
-Underfull \hbox (badness 7308) in paragraph at lines 22--22
-[]\T1/SourceSansPro-LF/b/n/10 Sum-product/Belief Pro-pa-ga-ti-on (BP)
- []
-
 ) (/Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/TemporalModels.tex
 Underfull \hbox (badness 10000) in paragraph at lines 42--1
 
@@ -1369,12 +1369,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--10
 []\T1/jkp/m/n/10 (+20) An MDP is spe-ci-fied by a quin-tu-ple:
  []
 
-) (/Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/LearningModels.tex
+[2 </Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/images/factor_graph.png>]) (/Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/LearningModels.tex
 Underfull \hbox (badness 10000) in paragraph at lines 10--28
 
  []
 
-[2 </Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/images/factor_graph.png>]) (/Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/RL.tex
+) (/Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/RL.tex
 Underfull \hbox (badness 10000) in paragraph at lines 23--34
 \T1/jkp/b/n/10 Theorem\T1/jkp/m/n/10 (+20) : If lear-ning ra-te $[]\OML/jkp/m/it/10 []$[] \T1/jkp/m/n/10 (+20) sa-tis-fies:
  []
@@ -1386,15 +1386,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--34
 
 ) [3] (/Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/main.aux) ) 
 Here is how much of TeX's memory you used:
- 23985 strings out of 480608
- 479193 string characters out of 5903630
- 817533 words of memory out of 5000000
- 39136 multiletter control sequences out of 15000+600000
- 629615 words of font info for 232 fonts, out of 8000000 for 9000
+ 23997 strings out of 480608
+ 479710 string characters out of 5903630
+ 820533 words of memory out of 5000000
+ 39138 multiletter control sequences out of 15000+600000
+ 629977 words of font info for 235 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,14n,67p,895b,501s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/sourcesanspro/a_ggs4wk.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-Bold.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpbne.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpex.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpmi.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpmia.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpmit8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpsya.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpsyb.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpsyc.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on /Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/main.pdf (3 pages, 266708 bytes).
+Output written on /Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/main.pdf (3 pages, 272192 bytes).
 PDF statistics:
  79 PDF objects out of 1000 (max. 8388607)
  57 compressed objects within 1 object stream

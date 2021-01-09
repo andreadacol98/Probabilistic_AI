@@ -370,10 +370,10 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/kpfonts/jkpttmn8t.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/kpfonts/jkpmit8t.tfm
 INPUT /Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/BayesianNeuralNets.tex
 INPUT /Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/BayesianNeuralNets.tex
-INPUT /Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/Introduction.tex
-INPUT /Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/Introduction.tex
-INPUT /Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/BayesianNetworks.tex
-INPUT /Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/BayesianNetworks.tex
+INPUT /Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/ActiveLearning.tex
+INPUT /Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/ActiveLearning.tex
+INPUT /Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/BayesianOptimization.tex
+INPUT /Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/BayesianOptimization.tex
 OUTPUT /Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/main.pdf
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/adobe/sourcesanspro/SourceSansPro-Bold-lf-t1.vf
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/sourcesanspro/SourceSansPro-Bold-lf-t1--base.tfm
@@ -404,6 +404,10 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/kpfonts/jkpttmne.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/public/kpfonts/jkpmit8t.vf
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/kpfonts/jkpmit8r.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/kpfonts/jkpmite.tfm
+INPUT /Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/Introduction.tex
+INPUT /Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/Introduction.tex
+INPUT /Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/BayesianNetworks.tex
+INPUT /Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/BayesianNetworks.tex
 INPUT /Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/ExactInference.tex
 INPUT /Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/chapters/ExactInference.tex
 INPUT /Users/marcomilanta/Documents/ETH/PAI/Probabilistic-AI/CheatSheet/images/factor_graph.png

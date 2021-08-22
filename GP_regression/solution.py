@@ -134,6 +134,19 @@ def small_data(train_x, train_y, req_size):
     train_y_small = train_y[(n-req_size):n]
     return train_x_small, train_y_small
 
+def draw(x, y, test_x, prediction):
+    import matplotlib.pyplot as plt
+    fig = plt.figure()
+    ax = fig.gca(projection='3d')
+    x1 = x[:, 0]
+    x2 = x[:, 1]
+    xt1 = test_x[:, 0]
+    xt2 = test_x[:, 1]
+    ax.scatter(x1, x2, y, s=1)
+    ax.scatter(xt1, xt2, prediction, s=1, c="red")
+
+    plt.show()
+
 def main():
     train_x_name = "train_x.csv"
     train_y_name = "train_y.csv"
@@ -148,6 +161,9 @@ def main():
     M = Model()
     M.fit_model(train_x, train_y)
     prediction = M.predict(test_x)
+
+    #train_x_small, train_y_small = small_data(train_x, train_y, 1000)
+    #draw(train_x_small, train_y_small, test_x, prediction)
 
 
 if __name__ == "__main__":
